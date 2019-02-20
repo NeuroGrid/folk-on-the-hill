@@ -25,6 +25,7 @@ facebook_username: Folk-on-the-Hill-music-festival-366706564162282
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass:
   sass_dir: _sass
