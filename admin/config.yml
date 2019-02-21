@@ -39,3 +39,18 @@ collections:
               - {label: Artist, name: name, widget: string}
               - {label: Description, name: desc, widget: string}
               - {label: CoverURL, name: cover_url, widget: string}
+  - label: "Venues"
+    name: "venues"
+    files:
+      - label: "Event Venues"
+        name: "venues"
+        file: "_data/venues.yml"
+        fields:
+          - label: Venues
+            name: venues
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: Description, name: desc, widget: string}
+              - {label: CoverURL, name: cover_url, widget: string}
+
