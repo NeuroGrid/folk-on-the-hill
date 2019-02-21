@@ -33,7 +33,7 @@ collections:
         file: "_data/biographies.yml"
         fields:
           - label: Biographies
-            name: biography
+            name: biographies
             widget: list
             fields: 
               - {label: Artist, name: name, widget: string}
