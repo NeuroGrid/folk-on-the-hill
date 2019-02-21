@@ -2,7 +2,7 @@ backend:
   name: github
   repo: tansaku/folk-on-the-hill
   branch: master
-media_folder: "imgs/uploads"
+media_folder: "imgs"
 collections:
   - label: "Line-up"
     name: "pages"
@@ -17,9 +17,9 @@ collections:
           - {label: Act 4, name: lineup_artist_4, widget: string, required: false}
           - {label: Act 5, name: lineup_artist_5, widget: string, required: false}
           - {label: Act 6, name: lineup_artist_6, widget: string, required: false}
-          - {label: Act 7, name: lineup_artist_5, widget: string, required: false}
+          - {label: Act 7, name: lineup_artist_7, widget: string, required: false}
           - {label: Act 8, name: lineup_artist_6, widget: string, required: false}
-          - {label: Act 9, name: lineup_artist_5, widget: string, required: false}
+          - {label: Act 9, name: lineup_artist_8, widget: string, required: false}
       - label: "Sunday line-up"
         name: "sunday lineup"
         file: "_data/sunday_lineup.yml"
