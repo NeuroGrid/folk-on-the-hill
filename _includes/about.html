@@ -17,18 +17,16 @@
       <div class="about__lineup--saturday">
         <img class="about__lineup__image--saturday" src="imgs/folk_on_the_hill_saturday_ribbon.png" alt="Folk on the hill festival saturday line up">
         <h2>LINE UP</h2>
-        <h3>{{ site.data.lineup.lineup_artist_1}}</h3>
-        <h3>{{ site.data.lineup.lineup_artist_2}}</h3>
-        <h3>{{ site.data.lineup.lineup_artist_3}}</h3>
-
-
+        {% for artist in site.data.saturday_lineup.artists %}
+        <h3>{{ artist.name }}</h3>
+        {% endfor %}
       </div>
       <div class="about__lineup--sunday">
         <img class="about__lineup__image--sunday" src="imgs/folk_on_the_hill_sunday_ribbon.png" alt="Folk on the hill festival sunday line up">
         <h2>LINE UP</h2>
-        <h3>{{ site.data.lineup.lineup_artist_4}}</h3>
-        <h3>{{ site.data.lineup.lineup_artist_5}}</h3>
-        <h3>{{ site.data.lineup.lineup_artist_6}}</h3>
+        {% for artist in site.data.sunday_lineup.artists %}
+        <h3>{{ artist.name }}</h3>
+        {% endfor %}
       </div>
     </div>
   </div>
