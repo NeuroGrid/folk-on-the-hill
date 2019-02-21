@@ -4,43 +4,13 @@
     <img class="biographies__container__img" src="imgs/folk_on_the_hill_biographies_ribbon.png" alt="Folk on the hill festival biographies">
 
     <div class="biographies__container__list">
+      {% for biography in site.data.biographies %}
       <div class="biographies__container__list--item">
-        <div class="biographies__container__list--item__cover" style="background-image: url({{ site.data.biographies.artist_1_cover_url }})">
-        </div>
-
-        <h2>{{ site.data.biographies.artist_1 }}</h2>
-        <p>{{ site.data.biographies.artist_1_description }}</p>
+        <div class="biographies__container__list--item__cover" style="background-image: url({{ biography.cover_url }})"></div>
+        <h2>{{ biography.name }}</h2>
+        <p>{{ biography.desc }}</p>
       </div>
-
-      {% if site.data.biographies.artist_2 %}
-      <div class="biographies__container__list--item">
-        <div class="biographies__container__list--item__cover" style="background-image: url({{ site.data.biographies.artist_2_cover_url }})">
-        </div>
-
-        <h2>{{ site.data.biographies.artist_2 }}</h2>
-        <p>{{ site.data.biographies.artist_2_description }}</p>
-      </div>
-      {% endif %}
-
-      {% if site.data.biographies.artist_3 %}
-      <div class="biographies__container__list--item">
-        <div class="biographies__container__list--item__cover" style="background-image: url({{ site.data.biographies.artist_3_cover_url }})">
-        </div>
-
-        <h2>{{ site.data.biographies.artist_3 }}</h2>
-        <p>{{ site.data.biographies.artist_3_description }}</p>
-      </div>
-      {% endif %}
-
-      {% if site.data.biographies.artist_4 %}
-      <div class="biographies__container__list--item">
-        <div class="biographies__container__list--item__cover" style="background-image: url({{ site.data.biographies.artist_4_cover_url }})">
-        </div>
-
-        <h2>{{ site.data.biographies.artist_4 }}</h2>
-        <p>{{ site.data.biographies.artist_4_description }}</p>
-      </div>
-      {% endif %}
+      {% endfor %}
     </div>
 
   </div>
