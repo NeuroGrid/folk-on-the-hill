@@ -46,4 +46,4 @@ collections:
             fields:
               - {label: artist, name: artist, widget: string}
               - {label: description, name: description, widget: string}
-- {label: cover_url, name: cover_url, widget: string}
+              - {label: cover_url, name: cover_url, widget: string}
