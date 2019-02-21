@@ -4,7 +4,7 @@
     <img class="biographies__container__img" src="imgs/folk_on_the_hill_biographies_ribbon.png" alt="Folk on the hill festival biographies">
 
     <div class="biographies__container__list">
-      {% for biography in site.data.biographies %}
+      {% for biography in site.data.biographies.biographies %}
       <div class="biographies__container__list--item">
         <div class="biographies__container__list--item__cover" style="background-image: url({{ biography.cover_url }})"></div>
         <h2>{{ biography.name }}</h2>
