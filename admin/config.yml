@@ -11,28 +11,18 @@ collections:
         name: "saturday lineup"
         file: "_data/saturday_lineup.yml"
         fields:
-          - {label: Act 1, name: lineup_artist_1, widget: string, required: false}
-          - {label: Act 2, name: lineup_artist_2, widget: string, required: false}
-          - {label: Act 3, name: lineup_artist_3, widget: string, required: false}
-          - {label: Act 4, name: lineup_artist_4, widget: string, required: false}
-          - {label: Act 5, name: lineup_artist_5, widget: string, required: false}
-          - {label: Act 6, name: lineup_artist_6, widget: string, required: false}
-          - {label: Act 7, name: lineup_artist_7, widget: string, required: false}
-          - {label: Act 8, name: lineup_artist_6, widget: string, required: false}
-          - {label: Act 9, name: lineup_artist_8, widget: string, required: false}
+          - label: artists
+            name: artists
+            widget: list
+            fields: {label: Name, name: name, widget: string}
       - label: "Sunday line-up"
         name: "sunday lineup"
         file: "_data/sunday_lineup.yml"
         fields:
-          - {label: Act 10, name: lineup_artist_10, widget: string, required: false}
-          - {label: Act 11, name: lineup_artist_11, widget: string, required: false}
-          - {label: Act 12, name: lineup_artist_12, widget: string, required: false}
-          - {label: Act 13, name: lineup_artist_13, widget: string, required: false}
-          - {label: Act 14, name: lineup_artist_14, widget: string, required: false}
-          - {label: Act 15, name: lineup_artist_15, widget: string, required: false}
-          - {label: Act 16, name: lineup_artist_16, widget: string, required: false}
-          - {label: Act 17, name: lineup_artist_17, widget: string, required: false}
-          - {label: Act 18, name: lineup_artist_18, widget: string, required: false}
+          - label: artists
+            name: artists
+            widget: list
+            fields: {label: Name, name: name, widget: string}
   - label: "Biographies"
     name: "biographies"
     files:
