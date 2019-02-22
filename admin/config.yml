@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: tansaku/folk-on-the-hill
+  repo: neurogrid/folk-on-the-hill
   branch: master
 media_folder: "imgs"
 collections:
