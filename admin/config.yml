@@ -38,7 +38,7 @@ collections:
             fields: 
               - {label: Artist, name: name, widget: string}
               - {label: Description, name: desc, widget: string}
-              - {label: CoverURL, name: cover_url, widget: string}
+              - {label: CoverURL, name: cover_url, widget: string, required: false}
   - label: "Venues"
     name: "venues"
     files:
@@ -52,5 +52,5 @@ collections:
             fields: 
               - {label: Name, name: name, widget: string}
               - {label: Description, name: desc, widget: string}
-              - {label: CoverURL, name: cover_url, widget: string}
+              - {label: CoverURL, name: cover_url, widget: string, required: false}
 
