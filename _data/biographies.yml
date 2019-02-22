@@ -1,15 +1,16 @@
-artist_1: Holy Moly & The Crackers
-artist_1_description: Holy Moly & The Crackers make riotous party music for the masses. Their upcoming third album, ‘Take A Bite’ (released April 5th 2019 on the band’s own Pink Lane Records), is concise, passionate take on folk, blues and indie rock. The sound of a band who have been searching and experimenting for several years; arriving at a place where they can say “this who we are and this is where we want to go”.
-artist_1_cover_url: https://www.kartelmusicgroup.com/wp-content/uploads/2018/06/HMatC-Whole-Band-Colour-copy.jpg
+biographies:
+  - name: Holy Moly & The Crackers
+    desc: Holy Moly & The Crackers make riotous party music for the masses. Their upcoming third album, ‘Take A Bite’ (released April 5th 2019 on the band’s own Pink Lane Records), is concise, passionate take on folk, blues and indie rock. The sound of a band who have been searching and experimenting for several years; arriving at a place where they can say “this who we are and this is where we want to go”.
+    cover_url: https://www.kartelmusicgroup.com/wp-content/uploads/2018/06/HMatC-Whole-Band-Colour-copy.jpg
 
-artist_2: Reg Meuross
-artist_2_description: Reg Meuross is quite simply an astounding songwriter and musician. With songs ranging from heart warming expressions on what it means to be English (England green and England grey) through eye-opening insights into modern day working Britain (Angel in a blue dress) by way of observances on the human condition (Leaving Alabama) to heart rending historical tributes which still have meaning (For Sophie). It is this song writing skill that has artists such as Seth Lakeman and Pete Townsend wanting to work with Reg and all delivered with incredible humanity, humour and musicianship. "Reg proves himself one of the key songwriters of our age." David Kidman, Fatea Magazine. Reg's Website - <a href="http://www.regmeuross.com/">http://www.regmeuross.com/</a>
-artist_2_cover_url: /imgs/Reg_Meuross_Portrait.jpg
+  - name: Reg Meuross
+    desc: Reg Meuross is quite simply an astounding songwriter and musician. With songs ranging from heart warming expressions on what it means to be English (England green and England grey) through eye-opening insights into modern day working Britain (Angel in a blue dress) by way of observances on the human condition (Leaving Alabama) to heart rending historical tributes which still have meaning (For Sophie). It is this song writing skill that has artists such as Seth Lakeman and Pete Townsend wanting to work with Reg and all delivered with incredible humanity, humour and musicianship. "Reg proves himself one of the key songwriters of our age." David Kidman, Fatea Magazine. Reg's Website - <a href="http://www.regmeuross.com/">http://www.regmeuross.com/</a>
+    cover_url: /imgs/Reg_Meuross_Portrait.jpg
 
-artist_3: Ron Truman-Border
-artist_3_description: Ron Truman-Border is a wonder. With consummate professionalism Ron's songs will take the listener from the shady side of life back to days when little English boys dreamed dreams of America and back again. As tribute songs go Ron's tribute to Fleetwood Mac founder Peter Green stands on a par with American Pie and Master Blaster Jammin.  Ron's Website - <a href="http://rontruemanborder.co.uk/">http://rontruemanborder.co.uk/</a>
-artist_3_cover_url: /imgs/RTB_Portrait.jpg
+  - name: Ron Truman-Border
+    desc: Ron Truman-Border is a wonder. With consummate professionalism Ron's songs will take the listener from the shady side of life back to days when little English boys dreamed dreams of America and back again. As tribute songs go Ron's tribute to Fleetwood Mac founder Peter Green stands on a par with American Pie and Master Blaster Jammin.  Ron's Website - <a href="http://rontruemanborder.co.uk/">http://rontruemanborder.co.uk/</a>
+    cover_url: /imgs/RTB_Portrait.jpg
 
-artist_4: Will Kaufman
-artist_4_description: Will Kaufman a.k.a. Professor of American Literature and Culture at the University of Central Lancashire in Preston, a.k.a. That guy who can really play, sing and delivers a Woody Guthrie song like it should be. a.k.a. You know, the one who wrote all those books, the one who was on TEDTalks, the one ... Not only are Will's sets insightful and well researched, his delivery is slick entertaining and very humorous (correct spelling). Oh, he can play and sing a bit as well - not to be missed.
-artist_4_cover_url: /imgs/Will_Kaufman_Portrait.jpg
+  - name: Will Kaufman
+    desc: Will Kaufman a.k.a. Professor of American Literature and Culture at the University of Central Lancashire in Preston, a.k.a. That guy who can really play, sing and delivers a Woody Guthrie song like it should be. a.k.a. You know, the one who wrote all those books, the one who was on TEDTalks, the one ... Not only are Will's sets insightful and well researched, his delivery is slick entertaining and very humorous (correct spelling). Oh, he can play and sing a bit as well - not to be missed.
+    cover_url: /imgs/Will_Kaufman_Portrait.jpg  
