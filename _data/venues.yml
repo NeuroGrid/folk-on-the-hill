@@ -1,7 +1,4 @@
-venue_1: Venue 1
-venue_1_description: Holy Moly & The Crackers make riotous party music for the masses. Their upcoming third album, ‘Take A Bite’ (released April 5th 2019 on the band’s own Pink Lane Records), is concise, passionate take on folk, blues and indie rock. The sound of a band who have been searching and experimenting for several years; arriving at a place where they can say “this who we are and this is where we want to go”.
-venue_1_cover_url: https://img.tagvenue.com/upload/f6/a1/1654-ryan-theatre-room.jpg
-
-venue_2: 
-venue_2_description: 
-venue_2_cover_url: 
+venues:
+  - name: Venue 1
+    desc: The Ryan theatre is a modern, well appointed and comfortable theatre which although it has seating for over 300+ guests has a very intimate feel.  This venue is Folk-On-The-Hill's main stage and all featured artists will be performing here along with (time permitting) a stage for introducing less experienced acts who deserve and would benefit from playing to a large audience.  Food and drink will be available outside the auditorium with a pleasant garden area as it's dining area.
+    cover_url: https://img.tagvenue.com/upload/f6/a1/1654-ryan-theatre-room.jpg
