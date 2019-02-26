@@ -9,7 +9,8 @@ venues:
       large audience.  Food and drink will be available outside the auditorium
       with a pleasant garden area as it's dining area.
     name: Main Stage
-  - desc: >-
+  - cover_url: /imgs/the_castle_inn_04.jpg
+    desc: >-
       There’s always something going on here at The Castle, whether you’re
       looking for the liveliness of our Acoustic nights or the tranquility of
       our beer garden with fantastic drinks and our delicious fresh menu.
