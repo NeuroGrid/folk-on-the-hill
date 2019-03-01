@@ -1,5 +1,5 @@
 #biographies {
-  background-image: url("../imgs/folk_on_the_hill_background.jpg");
+  background-image: url("../imgs/folk_on_the_hill_background_bio.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -39,8 +39,8 @@
     }
 
     .biographies__container__list--item__cover {
-      max-width: 100%;
-      height: 250px;
+      width: 100%;
+      height: 280px;
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 16px;
@@ -73,6 +73,10 @@
       .biographies__container__list--item {
         width: 100%;
         margin-bottom: 24px;
+      }
+
+      .biographies__container__list--item__cover {
+        height: 400px;
       }
     }
   }
@@ -127,6 +131,11 @@
   .biographies__container {
     img {
       height: 60px;
+    }
+    .biographies__container__list {
+      .biographies__container__list--item__cover {
+        height: 320px;
+      }
     }
   }
 }
