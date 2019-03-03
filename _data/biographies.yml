@@ -23,51 +23,6 @@ biographies:
       David Kidman, Fatea Magazine.<br/><br/> Reg's Website -<br/> <a
       href="http://www.regmeuross.com/">http://www.regmeuross.com/</a>
     name: Reg Meuross
-  - cover_url: /imgs/RTB_Portrait.jpg
-    desc: >-
-      Ron Truman-Border is a wonder. With consummate professionalism Ron's songs
-      will take the listener from the shady side of life back to days when
-      little English boys dreamed dreams of America and back again. As tribute
-      songs go Ron's tribute to Fleetwood Mac founder Peter Green stands on a
-      par with American Pie and Master Blaster Jammin.</br></br> Ron's Website
-      -</br> <a
-      href="http://rontruemanborder.co.uk/">http://rontruemanborder.co.uk/ </a>
-    name: Ron Truman-Border
-  - cover_url: /imgs/Will_Kaufman_Portrait.jpg
-    desc: >-
-      Will Kaufman a.k.a. Professor of American Literature and Culture at the
-      University of Central Lancashire in Preston, a.k.a. that guy who can
-      really play, sing and delivers a Woody Guthrie song like it should be.
-      a.k.a. You know, the one who wrote all those books, the one who was on
-      TEDTalks, the one ... Not only are Will's sets insightful and well
-      researched, his delivery is slick entertaining and very humorous (correct
-      spelling). Oh, he can play and sing a bit as well - not to be
-      missed.</br><br/>Will's Webpage -</br><a
-      href="https://www.willkaufman.com/">https://www.willkaufman.com/</a>
-    name: Will Kaufman
-  - cover_url: >-
-      https://ents24.imgix.net/image/000/279/175/46506cd1d4ac4117bc21271410097d9cbf415b02.jpg?w=716&h=536&auto=format&fit=crop&crop=faces
-    desc: >-
-      Jack Cookson is annoyingly young, irritatingly gifted and his only
-      redeeming features being his disarming charm, effortless politeness and
-      wonderful musicianship.  He is a talented multi-instrumentalist
-      performer/session musician, singer/song writer, producer and after lunch
-      ....  Don't take our word for this, his prior appearances with Franz
-      Nicolay, Cory Branan and Ralph McTell speaks volumes as does his 2016
-      nomination as one of four finalists for BBC Radio2 Young Folk Award.
-      <br/><br/> Jack's Website - <br/><a
-      href="www.jackcookson.co.uk">www.jackcookson.co.uk</a>
-    name: Jack Cookson
-  - cover_url: /imgs/iec.jpg
-    desc: >-
-      How do you create the India Electric Company ?</br> Easy recipe, steep in
-      folk tradition for a good few years, add two good dollops of personal
-      inspiration then stew for a couple of years on the folk circuit and
-      finally present the finished dish within pleasant surroundings.<br/>FATEA
-      Band of the year 2018 award winners and hugely respected musicians and a
-      set that leaves you thinking “wow”. <br/><br/> IEC website - <br/><a
-      href="www.indiaelectricco.com">www.indiaelectricco.com</a>
-    name: India Electric Company
   - cover_url: /imgs/Grace_Petrie_Brochure.jpg
     desc: >-
       Grace Petrie’s unique takes on life, love and politics, and the warmth and
@@ -84,6 +39,51 @@ biographies:
       true’ Buzz Magazine <br/><br/> Grace's Webpage -<br/> <a
       href="http://www.gracepetrie.com">www.gracepetrie.com</a>
     name: Grace Petrie
+  - cover_url: /imgs/iec.jpg
+    desc: >-
+      How do you create the India Electric Company ?</br> Easy recipe, steep in
+      folk tradition for a good few years, add two good dollops of personal
+      inspiration then stew for a couple of years on the folk circuit and
+      finally present the finished dish within pleasant surroundings.<br/>FATEA
+      Band of the year 2018 award winners and hugely respected musicians and a
+      set that leaves you thinking “wow”. <br/><br/> IEC website - <br/><a
+      href="www.indiaelectricco.com">www.indiaelectricco.com</a>
+    name: India Electric Company
+  - cover_url: /imgs/Will_Kaufman_Portrait.jpg
+    desc: >-
+      Will Kaufman a.k.a. Professor of American Literature and Culture at the
+      University of Central Lancashire in Preston, a.k.a. that guy who can
+      really play, sing and delivers a Woody Guthrie song like it should be.
+      a.k.a. You know, the one who wrote all those books, the one who was on
+      TEDTalks, the one ... Not only are Will's sets insightful and well
+      researched, his delivery is slick entertaining and very humorous (correct
+      spelling). Oh, he can play and sing a bit as well - not to be
+      missed.</br><br/>Will's Webpage -</br><a
+      href="https://www.willkaufman.com/">https://www.willkaufman.com/</a>
+    name: Will Kaufman
+  - cover_url: /imgs/RTB_Portrait.jpg
+    desc: >-
+      Ron Truman-Border is a wonder. With consummate professionalism Ron's songs
+      will take the listener from the shady side of life back to days when
+      little English boys dreamed dreams of America and back again. As tribute
+      songs go Ron's tribute to Fleetwood Mac founder Peter Green stands on a
+      par with American Pie and Master Blaster Jammin.</br></br> Ron's Website
+      -</br> <a
+      href="http://rontruemanborder.co.uk/">http://rontruemanborder.co.uk/ </a>
+    name: Ron Truman-Border
+  - cover_url: >-
+      https://ents24.imgix.net/image/000/279/175/46506cd1d4ac4117bc21271410097d9cbf415b02.jpg?w=716&h=536&auto=format&fit=crop&crop=faces
+    desc: >-
+      Jack Cookson is annoyingly young, irritatingly gifted and his only
+      redeeming features being his disarming charm, effortless politeness and
+      wonderful musicianship.  He is a talented multi-instrumentalist
+      performer/session musician, singer/song writer, producer and after lunch
+      ....  Don't take our word for this, his prior appearances with Franz
+      Nicolay, Cory Branan and Ralph McTell speaks volumes as does his 2016
+      nomination as one of four finalists for BBC Radio2 Young Folk Award.
+      <br/><br/> Jack's Website - <br/><a
+      href="www.jackcookson.co.uk">www.jackcookson.co.uk</a>
+    name: Jack Cookson
   - cover_url: /imgs/Beaubowbelles_photo01.jpg
     desc: >-
       The very stylish London based Beaubowbelles bring their sophisticated
@@ -92,3 +92,10 @@ biographies:
       following.<br/><br/>The Beaubowbelles can be found at -<br/><a
       href="http://thebeaubowbelles.com/">thebeaubowbelles.com</a>
     name: The Beaubowbelles
+  - desc: >-
+      Acoustic roots singer/songwriter and multi-instrumentalist from Cambridge,
+      England. I am an experienced performer and live play a mixture of original
+      songs, traditional folk and covers on 6 and 12 string guitar and
+      mandola.<br/>Bernard's Website - <br/><a
+      href="http://www.bernardhoskin.com">www.bernardhoskin.com</a>
+    name: Bernard Hoskin
