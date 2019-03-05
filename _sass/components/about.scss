@@ -1,19 +1,31 @@
 #about__intro {
+  @include flexbox;
   background-image: url("../imgs/folk_on_the_hill_background_main.jpg");
   background-color: #abdaf9;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   padding-top: 100px;
   padding-bottom: 32px;
 }
 
 .about__container {
+  @include flexbox;
   position: relative;
-  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
 
@@ -32,8 +44,10 @@
 }
 
 .about__text__container {
+  @include flexbox;
   width: 55%;
-  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 
   p,
@@ -43,13 +57,17 @@
 
   img {
     margin-top: 16px;
+    -ms-flex-item-align: center;
     align-self: center;
     max-width: 400px;
   }
 }
 
 .about__lineup__container {
-  display: flex;
+  @include flexbox;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 
   img {
@@ -59,8 +77,13 @@
   .about__lineup--saturday,
   .about__lineup--sunday {
     width: 45%;
-    display: flex;
+    @include flexbox;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -173,8 +196,13 @@
     .about__lineup--saturday,
     .about__lineup--sunday {
       width: 45%;
-      display: flex;
+      @include flexbox;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
     }
   }
@@ -216,7 +244,12 @@
   }
 
   .about__lineup__container {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
     img {
