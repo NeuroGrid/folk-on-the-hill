@@ -1,15 +1,23 @@
 #contact {
+  @include flexbox;
   background-image: url("../imgs/folk_on_the_hill_background_3.jpg");
   background-size: cover;
-  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 .contact__container {
-  display: flex;
+  @include flexbox;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 
   .contact__container__img {
@@ -18,11 +26,16 @@
   }
 
   .contact__container__list {
-    display: flex;
+    @include flexbox;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 
     .contact__container__list--item {
-      display: flex;
+      @include flexbox;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       margin-bottom: 16px;
     }
@@ -44,8 +57,13 @@
   }
 
   footer {
-    display: flex;
+    @include flexbox;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 
     p,
@@ -54,7 +72,7 @@
     }
 
     .footer__nav {
-      display: flex;
+      @include flexbox;
       & > * {
         margin-right: 8px;
       }
@@ -70,6 +88,8 @@
     }
 
     footer {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column;
 
       span {
@@ -82,8 +102,12 @@
       }
 
       .footer__nav {
-        display: flex;
+        @include flexbox;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         margin-top: 8px;
       }
