@@ -1,4 +1,18 @@
 venues:
-  - name: Venue 1
-    desc: The Ryan theatre is a modern, well appointed and comfortable theatre which although it has seating for over 300+ guests has a very intimate feel.  This venue is Folk-On-The-Hill's main stage and all featured artists will be performing here along with (time permitting) a stage for introducing less experienced acts who deserve and would benefit from playing to a large audience.  Food and drink will be available outside the auditorium with a pleasant garden area as it's dining area.
-    cover_url: https://img.tagvenue.com/upload/f6/a1/1654-ryan-theatre-room.jpg
+  - cover_url: 'https://img.tagvenue.com/upload/f6/a1/1654-ryan-theatre-room.jpg'
+    desc: >-
+      The Ryan theatre is a modern, well appointed and comfortable theatre which
+      although it has seating for over 300+ guests has a very intimate feel. 
+      This venue is Folk-On-The-Hill's main stage and all featured artists will
+      be performing here along with (time permitting) a stage for introducing
+      less experienced acts who deserve and would benefit from playing to a
+      large audience.  Food and drink will be available outside the auditorium
+      with a pleasant garden area as it's dining area.
+    name: Main Stage
+  - cover_url: /imgs/the_castle_inn_04.jpg
+    desc: >-
+      There’s always something going on here at The Castle, whether you’re
+      looking for the liveliness of our Acoustic nights or the tranquility of
+      our beer garden with fantastic drinks and our delicious fresh menu.
+      There’s something for everyone at Harrow's historic local.
+    name: The Castle

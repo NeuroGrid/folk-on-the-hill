@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: tansaku/folk-on-the-hill
+  repo: neurogrid/folk-on-the-hill
   branch: master
 media_folder: "imgs"
 collections:
@@ -38,7 +38,7 @@ collections:
             fields: 
               - {label: Artist, name: name, widget: string}
               - {label: Description, name: desc, widget: string}
-              - {label: CoverURL, name: cover_url, widget: string}
+              - {label: CoverURL, name: cover_url, widget: string, required: false}
   - label: "Venues"
     name: "venues"
     files:
@@ -52,5 +52,5 @@ collections:
             fields: 
               - {label: Name, name: name, widget: string}
               - {label: Description, name: desc, widget: string}
-              - {label: CoverURL, name: cover_url, widget: string}
+              - {label: CoverURL, name: cover_url, widget: string, required: false}
 

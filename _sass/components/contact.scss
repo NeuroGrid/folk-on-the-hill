@@ -1,15 +1,23 @@
 #contact {
+  @include flexbox;
   background-image: url("../imgs/folk_on_the_hill_background_3.jpg");
   background-size: cover;
-  display: flex;
-  flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 .contact__container {
-  display: flex;
+  @include flexbox;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 
   .contact__container__img {
@@ -18,11 +26,16 @@
   }
 
   .contact__container__list {
-    display: flex;
+    @include flexbox;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 
     .contact__container__list--item {
-      display: flex;
+      @include flexbox;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       margin-bottom: 16px;
     }
@@ -42,6 +55,29 @@
       margin-bottom: 24px;
     }
   }
+
+  footer {
+    @include flexbox;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    p,
+    span {
+      margin-right: 8px;
+    }
+
+    .footer__nav {
+      @include flexbox;
+      & > * {
+        margin-right: 8px;
+      }
+    }
+  }
 }
 
 // MEDIA
@@ -49,6 +85,32 @@
   .contact__container {
     .contact__container__img {
       height: 100px;
+    }
+
+    footer {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+
+      span {
+        display: none;
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: 8px;
+      }
+
+      .footer__nav {
+        @include flexbox;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 8px;
+      }
     }
   }
 }
@@ -63,6 +125,12 @@
       h3 {
         margin-bottom: 0;
         font-size: 0.75rem;
+      }
+    }
+
+    footer {
+      a {
+        text-decoration: underline;
       }
     }
   }
