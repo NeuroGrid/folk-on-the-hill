@@ -50,9 +50,9 @@
       }
     }
 
-    .biographies__container__list--item__cover {
+    .biographies__container__list--item__cover  {
       width: 100%;
-      height: 280px;
+      height: auto;
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 16px;
@@ -91,7 +91,8 @@
       }
 
       .biographies__container__list--item__cover {
-        height: 400px;
+        width: 100%;
+        height: auto;
       }
     }
   }
@@ -149,7 +150,8 @@
     }
     .biographies__container__list {
       .biographies__container__list--item__cover {
-        height: 320px;
+        width: 100%;
+        height: auto;
       }
     }
   }
