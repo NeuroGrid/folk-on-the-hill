@@ -6,8 +6,7 @@
     <div class="venues__container__list">
       {% for venue in site.data.venues.venues %}
       <div class="venues__container__list--item">
-        <div class="venues__container__list--item__cover" style="background-image: url({{ venue.cover_url }})">
-        </div>
+        <img class="venues__container__list--item__cover" src="{{ venue.cover_url }}"/>
 
         <h2>{{ venue.name }}</h2>
         <p>{{ venue.desc }}</p>
