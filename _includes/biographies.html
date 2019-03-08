@@ -6,7 +6,7 @@
     <div class="biographies__container__list">
       {% for biography in site.data.biographies.biographies %}
       <div class="biographies__container__list--item">
-        <div class="biographies__container__list--item__cover" style="background-image: url({{ biography.cover_url }})"></div>
+        <img class="biographies__container__list--item__cover" src="{{ biography.cover_url }}"/>
         <h2>{{ biography.name }}</h2>
         <p>{{ biography.desc }}</p>
       </div>
