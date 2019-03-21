@@ -29,4 +29,5 @@ group :test do
   gem 'rspec'
   gem 'browserstack-local'
   gem 'parallel_tests'
+  gem 'byebug'
 end

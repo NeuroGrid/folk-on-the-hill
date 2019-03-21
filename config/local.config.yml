@@ -1,6 +1,4 @@
 server: "hub-cloud.browserstack.com"
-user: "BROWSERSTACK_USERNAME"
-key: "BROWSERSTACK_ACCESS_KEY"
 
 common_caps:
   "build": "capybara-browserstack"
@@ -8,5 +6,6 @@ common_caps:
 
 browser_caps:
   -
+    "project": "FolkOnTheHill"
     "browser": "IE"
     "browserstack.local": true
