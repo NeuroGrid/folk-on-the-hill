@@ -8,5 +8,5 @@ common_caps:
 
 browser_caps:
   -
-    "browser": "chrome"
+    "browser": "IE"
     "browserstack.local": true
