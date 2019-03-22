@@ -1,10 +1,9 @@
-const menuContainer = document.querySelector(".menu__container");
-const menuContainerLogo = document.querySelector(".menu__container__logo");
-const menuIcon = document.querySelector(".menu");
-const flyIn = document.querySelector(".menu__navigation");
-const links = document.querySelectorAll("nav a");
-const logo = document.querySelector(".about__container__logo");
-
+var menuContainer = document.querySelector(".menu__container");
+var menuContainerLogo = document.querySelector(".menu__container__logo");
+var menuIcon = document.querySelector(".menu");
+var flyIn = document.querySelector(".menu__navigation");
+var links = document.querySelectorAll("nav a");
+var logo = document.querySelector(".about__container__logo");
 menuIcon.addEventListener("click", function() {
   if (this.classList.contains("exit")) {
     this.src = "imgs/folk_on_the_hill_menu.svg";
@@ -17,19 +16,18 @@ menuIcon.addEventListener("click", function() {
   }
 });
 
-links.forEach(link => {
-  link.addEventListener("click", () => {
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function() {
     menuIcon.src = "imgs/folk_on_the_hill_menu.svg";
     menuIcon.classList.remove("exit");
     flyIn.style.transform = "translateX(-100%)";
   });
-});
+}
 
 function scrolledPast(element) {
-  let rectangle = element.getBoundingClientRect();
-  let rectangleBottom = rectangle.bottom;
-
-  let userScrolls = window.pageYOffset;
+  var rectangle = element.getBoundingClientRect();
+  var rectangleBottom = rectangle.bottom;
+  var userScrolls = window.pageYOffset;
 
   if (userScrolls > rectangleBottom) {
     menuContainer.style.backgroundColor = "white";
@@ -40,6 +38,6 @@ function scrolledPast(element) {
   }
 }
 
-document.addEventListener("scroll", () => {
+document.addEventListener("scroll", function() {
   scrolledPast(logo);
 });
