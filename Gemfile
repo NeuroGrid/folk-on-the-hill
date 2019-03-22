@@ -19,3 +19,15 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
   gem 'jekyll-sitemap'
 end
+
+group :test do
+  gem 'mime-types', '~> 2.0'
+  gem 'rake'
+  gem 'cucumber'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'rspec'
+  gem 'browserstack-local'
+  gem 'parallel_tests'
+  gem 'byebug'
+end
